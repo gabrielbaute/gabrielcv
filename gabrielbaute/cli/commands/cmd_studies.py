@@ -22,3 +22,9 @@ def cmd_studies(args):
         )
 
     console.print(table)
+
+def register_studies_parser(subparsers):
+    parser = subparsers.add_parser("studies", help="Mostrar formación académica")
+    parser.add_argument("--only-concluded", action="store_true", help="Mostrar solo estudios concluidos")
+    parser.add_argument("--format", choices=["table", "json"], default="table", help="Formato de salida")
+    parser.set_defaults(func=cmd_studies)

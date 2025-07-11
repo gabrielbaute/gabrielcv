@@ -1,9 +1,11 @@
 from gabrielbaute.cli.commands.cmd_version import cmd_version
 from gabrielbaute.cli.commands.cmd_summary import cmd_summary
-from gabrielbaute.cli.commands.cmd_profile import cmd_skills, cmd_json, cmd_projects
+from gabrielbaute.cli.commands.cmd_skills import cmd_skills
+from gabrielbaute.cli.commands.cmd_json import cmd_json
+from gabrielbaute.cli.commands.cmd_projects import cmd_projects
 from gabrielbaute.cli.commands.cmd_about import cmd_about
 from gabrielbaute.cli.commands.cmd_highlight import cmd_highlight
-from gabrielbaute.cli.commands.cmd_studies import cmd_studies
+from gabrielbaute.cli.commands.cmd_studies import cmd_studies, register_studies_parser
 
 # Mapeo de comandos
 COMMANDS = {

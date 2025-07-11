@@ -6,6 +6,7 @@ from gabrielbaute.cli.commands.cmd_projects import cmd_projects, register_projec
 from gabrielbaute.cli.commands.cmd_about import cmd_about, register_about_parser
 from gabrielbaute.cli.commands.cmd_highlight import cmd_highlight, register_highlight_parser
 from gabrielbaute.cli.commands.cmd_studies import cmd_studies, register_studies_parser
+from gabrielbaute.cli.commands.cmd_experience import cmd_experience, register_experience_parser
 from gabrielbaute.cli.commands.avaiable_commands import get_available_commands
 
 # Mapeo de comandos
@@ -18,10 +19,12 @@ COMMANDS = {
     "version": cmd_version,
     "json": cmd_json,
     "studies": cmd_studies,
+    "experience": cmd_experience
 }
 
 def register_subparsers(subparsers):
     register_studies_parser(subparsers)
+    register_experience_parser(subparsers)
     register_skills_parser(subparsers)
     register_projects_parser(subparsers)
     register_summary_parser(subparsers)

@@ -10,4 +10,5 @@ def get_available_commands() -> dict:
         "version": {"desc": "Información de versión y autor", "tag": "[META]"},
         "json": {"desc": "CV como diccionario serializable", "tag": "[DEV]"},
         "studies": {"desc": "Formación académica con filtros", "tag": "[DATA]"},
+        "experience": {"desc": "Experiencia laboral con filtros", "tag": "[DATA]"}
     }

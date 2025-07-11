@@ -26,3 +26,7 @@ def show_version():
 
 def cmd_version(args):
     show_version()
+
+def register_version_parser(subparsers):
+    parser = subparsers.add_parser("version", help="Devuelve una tabla con la versión de la CLI")
+    parser.set_defaults(func=cmd_version)

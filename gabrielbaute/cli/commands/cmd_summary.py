@@ -17,3 +17,7 @@ def cmd_summary(args):
         table.add_row(key, value)
 
     console.print(table)
+
+def register_summary_parser(subparsers):
+    parser = subparsers.add_parser("summary", help="Muestra un resumen, en forma de tabla, del desarrollador.")
+    parser.set_defaults(func=cmd_summary)

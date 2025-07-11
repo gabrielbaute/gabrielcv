@@ -6,6 +6,7 @@ from gabrielbaute.cli.commands.cmd_projects import cmd_projects, register_projec
 from gabrielbaute.cli.commands.cmd_about import cmd_about, register_about_parser
 from gabrielbaute.cli.commands.cmd_highlight import cmd_highlight, register_highlight_parser
 from gabrielbaute.cli.commands.cmd_studies import cmd_studies, register_studies_parser
+from gabrielbaute.cli.commands.avaiable_commands import get_available_commands
 
 # Mapeo de comandos
 COMMANDS = {
@@ -28,15 +29,3 @@ def register_subparsers(subparsers):
     register_highlight_parser(subparsers)
     register_about_parser(subparsers)
     register_version_parser(subparsers)
-
-def get_available_commands() -> dict:
-    return {
-        "summary": "Mostrar resumen general con banner",
-        "skills": "Listar habilidades técnicas",
-        "projects": "Ver proyectos desarrollados por categoría",
-        "highlight": "Proyecto más exitoso",
-        "about": "Filosofía del desarrollador",
-        "version": "Información de versión y autor",
-        "json": "CV como diccionario serializable",
-        "studies": "Formación académica con filtros",
-    }

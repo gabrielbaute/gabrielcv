@@ -106,8 +106,23 @@ class GabrielBaute:
                         {
                         "name": "Creador de contenido",
                         "description": "Crear y diseñar publicaciones para redes sociales (Instagram, Facebook, etc) y artículos para blog, en función de los objetivos de marketing de la empresa",
-                        "start": 2019,
-                        "until": 2022
+                        "start": 2022,
+                        "until": "present"
+                        },
+                ],
+                "start": 2022,
+                "until": "present",
+                "active": True,
+                "remote": True
+            },
+            {
+                "name": "CercAPP",
+                "charges": [
+                        {
+                        "name": "Asistente de TI",
+                        "description": "Mantener y gestionar los servidores Web (Odoo, Namecheap), gestionar los aplicativos de correo masivo (python y Namecheap) y crear MVPs para testeo del aplicativo.",
+                        "start": 2022,
+                        "until": "present"
                         },
                 ],
                 "start": 2022,

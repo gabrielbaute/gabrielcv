@@ -12,6 +12,6 @@ tag_scope = "global"
 "pyproject.toml" = [
     'version = "{version}"'
 ]
-"gabrielbaute/cli/version.py" = [
+"gabrielbaute/cli/commands/cmd_version.py" = [
     '__version__ = "{version}"'
 ]

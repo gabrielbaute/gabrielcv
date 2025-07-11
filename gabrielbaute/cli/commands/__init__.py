@@ -1,4 +1,4 @@
-from gabrielbaute.cli.commands.version import cmd_version
+from gabrielbaute.cli.commands.cmd_version import cmd_version
 from gabrielbaute.cli.commands.cmd_summary import cmd_summary
 from gabrielbaute.cli.commands.cmd_profile import cmd_skills, cmd_json, cmd_projects
 from gabrielbaute.cli.commands.cmd_about import cmd_about

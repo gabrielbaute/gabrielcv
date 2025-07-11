@@ -1,6 +1,6 @@
 [project]
 name = "gabrielcv"
-version = "0.0.0"
+version = "0.1.0"
 description = "CLI Interactiva para el CV de Gabriel Baute."
 authors = [
     {name = "Gabriel Baute",email = "gabrielbaute@gmail.com"}

@@ -1,0 +1,1 @@
+from gabrielbaute.cli.main import main

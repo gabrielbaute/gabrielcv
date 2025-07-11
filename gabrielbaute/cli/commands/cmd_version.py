@@ -8,7 +8,7 @@ def show_version():
     """Muestra la versión en una tabla estilo Rich."""
     console = Console()
     table = Table(
-        title="[bold magenta]anime-light[/bold magenta]",
+        title="[bold magenta]Gabriel Baute CV CLI[/bold magenta]",
         show_header=False,
         border_style="blue",
         padding=(0, 2),

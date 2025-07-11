@@ -1,5 +1,5 @@
 [project]
-name = "gabrielcv"
+name = "gabrielbaute"
 version = "0.1.0"
 description = "CLI Interactiva para el CV de Gabriel Baute."
 authors = [

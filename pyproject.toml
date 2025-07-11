@@ -1,0 +1,20 @@
+[project]
+name = "gabrielcv"
+version = "0.1.0"
+description = "CLI Interactiva para el CV de Gabriel Baute."
+authors = [
+    {name = "Gabriel Baute",email = "gabrielbaute@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyfiglet (>=1.0.3,<2.0.0)",
+    "rich (>=14.0.0,<15.0.0)",
+    "bumpver (>=2025.1131,<2026.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
